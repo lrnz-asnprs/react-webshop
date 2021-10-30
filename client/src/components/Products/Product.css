@@ -1,0 +1,18 @@
+.productContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    padding-top: 25px;
+}
+
+.card-img {
+    padding:10px
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 25px;
+}
+

@@ -1,0 +1,23 @@
+.MobileMenu {
+    display: none;
+    font-size:1.5rem;
+}
+.LargeScreen {
+    display: block;
+}
+h2 {
+    color:#fff
+}
+
+@media screen and (max-width: 768px) {
+    .MobileMenu {
+    display: flex;
+    }
+    .LargeScreen {
+        display: none;
+  }
+  .Icon {
+      padding:0;
+  }
+
+}

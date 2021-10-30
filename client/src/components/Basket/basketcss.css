@@ -1,0 +1,36 @@
+.cart-img {
+  width: 120px;
+  height: 120px;
+  margin-right: 50px;
+}
+
+thead {
+  font-size: large;
+}
+
+tbody {
+  font-size: medium;
+}
+
+.cart-product-title {
+  font-style: italic;
+}
+
+.details-link{
+  font-size: small;
+}
+
+.text-total{
+  font-size: large;
+  font-weight: bold;
+}
+
+.text-subtotal{
+  font-size: medium;
+
+}
+
+.cart-title{
+  padding-bottom: 5%;
+  text-align: center;
+}
