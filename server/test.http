@@ -1,0 +1,42 @@
+// Get all products
+GET http://localhost:3000/products/ HTTP/1.1
+
+###
+
+// Get all categories
+GET http://localhost:3000/product_categories/ HTTP/1.1
+
+###
+
+// Get products by category
+GET http://localhost:3000/products/food HTTP/1.1
+
+###
+
+// Get basket for all users
+GET http://localhost:3000/basket HTTP/1.1
+
+###
+
+// Get basket by userid
+GET http://localhost:3000/basket/1 HTTP/1.1
+
+###
+
+// Add a product into a basket
+PUT http://localhost:3000/basket/1/product/1 HTTP/1.1
+
+###
+
+// Create basket
+POST  http://localhost:3000/basket/18 HTTP/1.1
+
+###
+
+// Delete basket
+DELETE  http://localhost:3000/basket/18 HTTP/1.1
+
+###
+
+//Delete a product from a basket
+DELETE http://localhost:3000/basket/1/product/1 HTTP/1.1
